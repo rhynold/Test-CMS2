@@ -30,3 +30,11 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
 }
+
+header {
+	color: black;
+}
+
+footer {
+	color: black;
+}
