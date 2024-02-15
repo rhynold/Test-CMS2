@@ -75,7 +75,7 @@ footer {
     --wp--gutena-forms--placeholder-line-height: ;
     --wp--gutena-forms--placeholder-font-weight: 400;
     --wp--gutena-forms--input-border-width: 1px;
-    --wp--gutena-forms--input-border-radius: 0px;
+    --wp--gutena-forms--input-border-radius: 10px;
     --wp--style--block-gap: var:preset|spacing|40;
 	width: 400px;
 }
