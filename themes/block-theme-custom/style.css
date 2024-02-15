@@ -64,4 +64,18 @@ footer {
 	color: black;
 }
 
-
+.gutena-forms-contact-form {
+    --wp--gutena-forms--placeholder-color: #808080;
+    --wp--gutena-forms--input-bg-color: transparent;
+    --wp--gutena-forms--label-font-size: 1rem;
+    --wp--gutena-forms--label-line-height: ;
+    --wp--gutena-forms--label-font-weight: 400;
+    --wp--gutena-forms--placeholder-font-family: Baloo;
+    --wp--gutena-forms--placeholder-font-size: 13px;
+    --wp--gutena-forms--placeholder-line-height: ;
+    --wp--gutena-forms--placeholder-font-weight: 400;
+    --wp--gutena-forms--input-border-width: 1px;
+    --wp--gutena-forms--input-border-radius: 0px;
+    --wp--style--block-gap: var:preset|spacing|40;
+	width: 400px;
+}
