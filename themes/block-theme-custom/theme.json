@@ -13,12 +13,12 @@
 			"palette": [
 				{
 					"slug": "base",
-					"color": "#1e1e1e",
+					"color": "#e2faf8",
 					"name": "Base"
 				},
 				{
 					"slug": "contrast",
-					"color": "#f0f0f0",
+					"color": "#000000",
 					"name": "Contrast"
 				},
 				{
@@ -76,7 +76,7 @@
 				{
 					"name": "System",
 					"slug": "system",
-					"fontFamily": "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen-Sans,Ubuntu,Cantarell,\"Helvetica Neue\",sans-serif"
+					"fontFamily": "Roboto"
 				},
 				{
 					"name": "Serif",

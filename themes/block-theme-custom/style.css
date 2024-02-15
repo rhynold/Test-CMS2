@@ -29,10 +29,35 @@ html {
 body {
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
+	color: black;
 }
 
 header {
 	color: black;
+}
+
+.wp-block-navigation .wp-block-navigation-item__content.wp-block-navigation-item__content {
+    color: black;
+	text-decoration: none;
+}
+
+.wp-block-navigation .wp-block-navigation-item__content.wp-block-navigation-item__content:hover {
+    color: black;
+	text-decoration: underline;
+}
+
+:where(.wp-block-search__button-inside .wp-block-search__inside-wrapper) .wp-block-search__input {
+    border: 1px solid black;
+}
+
+a:where(:not(.wp-element-button)) {
+    color: black;
+    text-decoration: underline;
+}
+
+a:where(:not(.wp-element-button)):hover {
+    color: #687eff;
+    text-decoration: underline;
 }
 
 footer {
