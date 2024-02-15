@@ -28,7 +28,7 @@
 				},
 				{
 					"slug": "secondary",
-					"color": "#e2faf8",
+					"color": "#687eff",
 					"name": "Secondary"
 				},
 				{
@@ -79,9 +79,9 @@
 					"fontFamily": "Roboto"
 				},
 				{
-					"name": "Serif",
-					"slug": "serif",
-					"fontFamily": "\"Times New Roman\",\"New York\",Times,\"Noto Serif\",serif"
+					"name": "Baloo",
+					"slug": "Baloo",
+					"fontFamily": "Baloo"
 				},
 				{
 					"name": "Monospace",
