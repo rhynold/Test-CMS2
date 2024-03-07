@@ -77,3 +77,9 @@ div.wpforms-container-full input[type=submit],div.wpforms-container-full button[
 	font-family: monospace;
 	font-size: 18px;
 }
+
+.wp-block-post-title {
+    box-sizing: border-box;
+    word-break: break-word;
+	font-family: baloo;
+}
