@@ -52,3 +52,8 @@ div.wpforms-container-full input[type=submit],div.wpforms-container-full button[
 .wp-block-navigation .wp-block-navigation-item__content.wp-block-navigation-item__content:hover {
 	text-decoration: underline;
 }
+
+.wp-block-post-title a {
+    display: inline-block;
+	text-decoration: none;
+}
