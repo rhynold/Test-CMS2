@@ -30,3 +30,12 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
 }
+
+div.wpforms-container-full .wpforms-field-label {
+	font-family: Baloo;
+}
+
+div.wpforms-container-full input[type=submit],div.wpforms-container-full button[type=submit],div.wpforms-container-full .wpforms-page-button {
+    font-family: Baloo;
+ 
+}
