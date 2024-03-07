@@ -37,5 +37,9 @@ div.wpforms-container-full .wpforms-field-label {
 
 div.wpforms-container-full input[type=submit],div.wpforms-container-full button[type=submit],div.wpforms-container-full .wpforms-page-button {
     font-family: Baloo;
- 
+}
+
+.wp-block-search__input {
+	width: 250px;
+	border-radius: 10px;
 }
