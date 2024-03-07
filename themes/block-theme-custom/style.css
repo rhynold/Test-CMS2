@@ -83,3 +83,18 @@ div.wpforms-container-full input[type=submit],div.wpforms-container-full button[
     word-break: break-word;
 	font-family: baloo;
 }
+
+.wp-block-button.wc-block-components-product-button .wc-block-components-product-button__button {
+    align-items: center;
+    border-style: none;
+    display: inline-flex;
+    justify-content: center;
+    line-height: inherit;
+    overflow: hidden;
+    white-space: normal;
+    word-break: break-word;
+	color: white;
+	background-color: #687eff;
+	font-family: baloo;
+	font-size: 18px;
+}
