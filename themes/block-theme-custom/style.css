@@ -57,3 +57,23 @@ div.wpforms-container-full input[type=submit],div.wpforms-container-full button[
     display: inline-block;
 	text-decoration: none;
 }
+
+.woocommerce div.product form.cart button.single_add_to_cart_button, .woocommerce div.product form.cart button[name=add-to-cart] {
+    display: inline-block;
+    float: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    vertical-align: middle;
+	border-radius: 10px;
+	color: white;
+	background-color: #687eff;
+	font-family: baloo;
+	font-size: 18px;
+}
+
+.wp-block-post-excerpt__excerpt {
+    margin-bottom: 0;
+    margin-top: 0;
+	font-family: monospace;
+	font-size: 18px;
+}
