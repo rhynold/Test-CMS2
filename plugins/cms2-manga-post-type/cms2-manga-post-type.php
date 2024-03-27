@@ -3,12 +3,8 @@
 * Plugin Name: CMS2 Book Post Type
 */
 
-add_action( 'init', 'wpdocs_register_announcement_cpt' );
-
-function wpdocs_register_announcement_cpt() {
-
+function cms2_register_post_type() {
 $labels = array(
-
     'name'                     => __( 'Announcements', 'TEXTDOMAINHERE' ),
     'singular_name'            => __( 'Announcement', 'TEXTDOMAINHERE' ),
     'add_new'                  => __( 'Add New', 'TEXTDOMAINHERE' ),
@@ -42,11 +38,9 @@ $labels = array(
     'item_updated'             => __( 'Announcement updated.', 'TEXTDOMAINHERE' ),
     'item_link'                => __( 'Announcement Link', 'TEXTDOMAINHERE' ),
     'item_link_description'    => __( 'A link to an announcement.', 'TEXTDOMAINHERE' ),
-
 );
 
 $args = array(
-
     'labels'                => $labels,
     'description'           => __( 'organize and manage company announcements', 'TEXTDOMAINHERE' ),
     'public'                => false,
@@ -65,15 +59,15 @@ $args = array(
     'supports'              => array( 'title', 'editor', 'revisions' ),
     'taxonomies'            => array(),
     'has_archive'           => false,
-    'rewrite'               => array( 'slug' => 'cpar_announcement' ),
+    'rewrite'               => array( 'slug' => 'mangas' ),
     'query_var'             => true,
     'can_export'            => true,
     'delete_with_user'      => false,
     'template'              => array(),
     'template_lock'         => false,
-
 );
 
-register_post_type( 'wpdocs_register_announcement_cpt', $args );
+register_post_type( 'cms2_manga', $args );
 
 }
+add_action( 'init', 'cms2_register_post_type' );
