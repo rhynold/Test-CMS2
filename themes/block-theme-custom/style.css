@@ -31,33 +31,41 @@ body {
 	-webkit-font-smoothing: antialiased;
 }
 
+
+/* Font Family added for form */
 div.wpforms-container-full .wpforms-field-label {
 	font-family: Baloo;
 }
 
+/* Font Family added for form button */
 div.wpforms-container-full input[type=submit],div.wpforms-container-full button[type=submit],div.wpforms-container-full .wpforms-page-button {
     font-family: Baloo;
 }
 
+/* Styling for search button */
 .wp-block-search__input {
 	width: 250px;
 	border-radius: 10px;
 }
 
+/* Removing text decoration and adding color to the nav */
 .wp-block-navigation .wp-block-navigation-item__content.wp-block-navigation-item__content {
     color: inherit;
 	text-decoration: none;
 }
 
+/* Removing text decoration on nav hover */
 .wp-block-navigation .wp-block-navigation-item__content.wp-block-navigation-item__content:hover {
 	text-decoration: underline;
 }
 
+/* Styling for posts */
 .wp-block-post-title a {
     display: inline-block;
 	text-decoration: none;
 }
 
+/* Woo Commerce cart styling */
 .woocommerce div.product form.cart button.single_add_to_cart_button, .woocommerce div.product form.cart button[name=add-to-cart] {
     display: inline-block;
     float: none;
@@ -71,6 +79,7 @@ div.wpforms-container-full input[type=submit],div.wpforms-container-full button[
 	font-size: 18px;
 }
 
+/* Styling for what is displayed on the posts excerpt */
 .wp-block-post-excerpt__excerpt {
     margin-bottom: 0;
     margin-top: 0;
@@ -78,12 +87,15 @@ div.wpforms-container-full input[type=submit],div.wpforms-container-full button[
 	font-size: 18px;
 }
 
+
+/* Post styling */
 .wp-block-post-title {
     box-sizing: border-box;
     word-break: break-word;
 	font-family: baloo;
 }
 
+/* More styling for buttons */
 .wp-block-button.wc-block-components-product-button .wc-block-components-product-button__button {
     align-items: center;
     border-style: none;
